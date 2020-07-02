@@ -19,7 +19,7 @@ def date_change(x):
     return x
 
 
-db = pymysql.connect(host="118.31.72.134", port=3306, user="taoji", passwd="Abc12345", db="dzh", charset='utf8')
+db = pymysql.connect(host="192.168.1.6", port=3306, user="******", passwd="******", db="dzh", charset='utf8')
 cursor = db.cursor()
 sql = "SELECT FSYMBOL,ENDDATE FROM TQ_FD_BASICINFO"
 cursor.execute(sql)
